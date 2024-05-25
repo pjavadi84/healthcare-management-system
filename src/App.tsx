@@ -2,7 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import AppointmentScheduler  from './components/AppointmentScheduler';
 import Dashboard from './components/Dashboard'
-import Login from './components/Login'
+import Login from './components/authentication/Login'
+
 
 
 function App() {
