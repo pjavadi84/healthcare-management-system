@@ -14,10 +14,7 @@ const initialState: State = {
 };
 
 const GlobalStateContext = createContext<State | undefined>(undefined);
-// to find these what they return..more granularity into what can be definded to be a global context..ultimate state: To me...The unicorn homepage of all"
-debugger
 const DispatchContext = createContext<React.Dispatch<Action> | undefined>(undefined);
-debugger
 
 const reducer = (state: State, action: Action): State => {
   switch (action.type) {
